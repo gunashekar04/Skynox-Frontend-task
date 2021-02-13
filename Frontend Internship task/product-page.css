@@ -1,0 +1,92 @@
+.container{
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+#right-col{
+    padding-left: 50px;
+}
+
+.related{
+    margin-top: 20px;
+    width: 18%;
+}
+
+.sofa-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#subtext{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0,0.6);
+}
+
+.checked{
+    color: rgb(19, 214, 165);
+}
+
+#review{
+    border-bottom: 1px solid #000;
+    width: 105px;
+    padding-bottom: 0.5px;
+}
+
+#price{
+    font-size: 30px;
+    padding-top: 5px;
+    font-weight: 600;
+}
+
+#delivery{
+    font-size: 14px;
+    padding-top: 15px;;
+}
+
+.button{
+    font-size: 10px;
+    padding: 10px 30px;
+}
+
+#cart{
+    color: white;
+    background-color: black;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+#wishlist{
+    color: black;
+    background-color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    background-color: rgba(255, 245, 238,0.4);
+}
+
+.footer-text{
+    font-size: 20px;
+    font-weight: 600;
+    width: 70%;
+}
+
+.footer-subtext{
+    padding-left: 48px;
+    width: 70%;
+}
+
+/* Adding responsiveness */
+@media only screen and (max-width: 600px) {
+    .footer {
+        display: inline-block; 
+        margin-left: 20px;
+    }
+
+    #right-col{
+        margin-top: 40px;
+    }
+}
